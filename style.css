@@ -146,17 +146,18 @@ footer p {
     letter-spacing: 1px;
     color: #fff;
 }
-ul#menu-footer-menu {
+footer ul {
     font-family: 'OpenSans-Regular' !important;
     list-style-type: none;
 }
 
-#menu-footer-menu li a {
+footer li a {
   text-decoration: none;
   color: #c8a37b;
   transition: 0.2s;
 }
-#menu-footer-menu li a:hover {
+
+footer li a:hover {
   color: #a26f45;
 }
 
