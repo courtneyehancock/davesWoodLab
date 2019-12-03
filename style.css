@@ -28,20 +28,8 @@ font-family: 'Afterglow-Regular' !important;
 
 /* -- Universal Styling -- */
 @font-face {
-	font-family: 'CaviarDreams';
-	src: url('fonts/CaviarDreams.otf') format('opentype');
-}
-@font-face {
-	font-family: 'CaviarDreams_Bold';
-	src: url('fonts/CaviarDreams_Bold.otf') format('opentype');
-}
-@font-face {
-	font-family: 'CaviarDreams-BoldItalic';
-	src: url('fonts/CaviarDreams-BoldItalic.otf') format('opentype');
-}
-@font-face {
-	font-family: 'CaviarDreams-Italic';
-	src: url('fonts/CaviarDreams-Italic.otf') format('opentype');
+	font-family: 'RoughBlacky';
+	src: url('fonts/RoughBlacky.otf') format('opentype');
 }
 @font-face {
 	font-family: 'Adam';
@@ -53,7 +41,7 @@ font-family: 'Afterglow-Regular' !important;
 }
 
 h1 {
-  font-family: 'Afterglow-Regular' !important;
+  font-family: 'RoughBlacky' !important;
   letter-spacing: 1.5px;
   color: #6a202b;
 }
@@ -64,12 +52,12 @@ h2, h3 {
   color: #1f2833;
 }
 h4, h5, h6 {
-  font-family: 'Afterglow-Regular' !important;
+  font-family: 'OpenSans-Regular' !important;
 	letter-spacing: 1.5px;
   color: #6a202b;
 }
 p {
-  font-family: 'CaviarDreams', sans-serif !important;
+  font-family: 'OpenSans-Regular', sans-serif !important;
 }
 .title-box {
   width: 25px;
