@@ -19,11 +19,11 @@
 
 <div class="mt-5">
   <div class="row align-items-center">
-    <div class="col-md-5 text-center pl-5">
+    <div class="col-md-6 text-center pl-5">
       <!-- About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home'); ?>
     </div>
-    <div class="col-md-7">
+    <div class="col-md-6">
       <!--Img Widget-->
       <?php dynamic_sidebar('right-img-home'); ?>
     </div>
@@ -45,11 +45,11 @@
 
 <div>
   <div class="row align-items-center">
-    <div class="col-md-5 text-center pl-5">
+    <div class="col-md-6 text-center pl-5">
       <!--About Brief Text Widget-->
       <?php dynamic_sidebar('about-brief-home-two'); ?>
     </div>
-    <div class="col-md-7">
+    <div class="col-md-6">
       <!--Img Widget 2-->
       <?php dynamic_sidebar('right-img-home-two'); ?>
     </div>
