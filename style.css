@@ -44,9 +44,14 @@ font-family: 'Afterglow-Regular' !important;
 	src: url('fonts/CaviarDreams-Italic.otf') format('opentype');
 }
 @font-face {
-	font-family: 'Afterglow-Regular';
-	src: url('fonts/Afterglow-Regular.otf') format('opentype');
+	font-family: 'Adam';
+	src: url('fonts/Adam.ttf') format('truetype');
 }
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url('fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
 h1 {
   font-family: 'Afterglow-Regular' !important;
   letter-spacing: 1.5px;
@@ -54,7 +59,7 @@ h1 {
 }
 
 h2, h3 {
-  font-family: 'Afterglow-Regular' !important;
+  font-family: 'Adam' !important;
   letter-spacing: 1.5px;
   color: #1f2833;
 }
@@ -139,7 +144,7 @@ label {
 /* -- FOOTER -- */
 
 footer {
-	background-color: #322015;
+	background-color: #212121;
 }
 
 footer p {
