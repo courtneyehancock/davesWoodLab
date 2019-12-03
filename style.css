@@ -112,6 +112,10 @@ a.homepage-offer:hover {
 .home-icons {
 	width: 80px;
 }
+
+.home-icons:hover {
+	opacity: .7;
+}
 /* -- SERVICES PAGE -- */
 .image-ultimate-hover-1 .iheu-info,
 .image-ultimate-hover-2 .iheu-info {
