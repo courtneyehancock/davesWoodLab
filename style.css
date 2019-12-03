@@ -109,6 +109,9 @@ a.homepage-offer:hover {
 	text-decoration: none;
 }
 
+.home-icons {
+	width: 80px;
+}
 /* -- SERVICES PAGE -- */
 .image-ultimate-hover-1 .iheu-info,
 .image-ultimate-hover-2 .iheu-info {
