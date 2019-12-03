@@ -114,6 +114,7 @@ a.homepage-offer:hover {
 }
 
 .home-icons:hover {
+	color: #c8a37b;
 	opacity: .7;
 	transition: .2s;
 }
