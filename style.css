@@ -141,3 +141,7 @@ label {
 footer {
 	background-color: #322015;
 }
+
+footer p {
+	color: #fff;
+}
