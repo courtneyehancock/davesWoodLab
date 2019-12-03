@@ -85,6 +85,12 @@ button:hover {
 
 
 /* -- HEADER -- */
+header {
+	-webkit-box-shadow: 0 10px 5px #888888;
+	-moz-box-shadow: 0 10px 5px #888888;
+	box-shadow: 0 1px 8px #888888;
+}
+
 .top-menu-header {
 	background-color: #fff;
 }
