@@ -1,0 +1,144 @@
+/*
+  Theme Name: Legacy Hospitality LLC
+  Theme URI:
+  Author: Courtney Hancock
+  Description: This template was made for Legacy Hospitality LLC by Courtney and Briana.
+  Version: 1.0
+  License: Open
+  Text Domain: legacy
+
+*/
+
+/*
+Colors
+Beige: #f9e5bc
+Gold: #daa520
+Blush: #cc6666
+Maroon: #6a202b
+Soft Black: #1f2833
+
+Fonts
+font-family: 'CaviarDreams' !important;
+font-family: 'CaviarDreams_Bold' !important;
+font-family: 'CaviarDreams-BoldItalic' !important;
+font-family: 'CaviarDreams-Italic' !important;
+font-family: 'Afterglow-Regular' !important;
+*/
+
+
+/* -- Universal Styling -- */
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('fonts/CaviarDreams.otf') format('opentype');
+}
+@font-face {
+	font-family: 'CaviarDreams_Bold';
+	src: url('fonts/CaviarDreams_Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'CaviarDreams-BoldItalic';
+	src: url('fonts/CaviarDreams-BoldItalic.otf') format('opentype');
+}
+@font-face {
+	font-family: 'CaviarDreams-Italic';
+	src: url('fonts/CaviarDreams-Italic.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Afterglow-Regular';
+	src: url('fonts/Afterglow-Regular.otf') format('opentype');
+}
+h1 {
+  font-family: 'Afterglow-Regular' !important;
+  letter-spacing: 1.5px;
+  color: #6a202b;
+}
+
+h2, h3 {
+  font-family: 'Afterglow-Regular' !important;
+  letter-spacing: 1.5px;
+  color: #1f2833;
+}
+h4, h5, h6 {
+  font-family: 'Afterglow-Regular' !important;
+	letter-spacing: 1.5px;
+  color: #6a202b;
+}
+p {
+  font-family: 'CaviarDreams', sans-serif !important;
+}
+.title-box {
+  width: 25px;
+  height: 50px;
+  background-color: #aadd73;
+  float:left;
+  margin-right: 20px;
+}
+.section-margins {
+  margin: 100px 0;
+}
+button {
+    border: 3px solid #60c28e;
+    font-family: 'Afterglow-Regular' !important;
+    color: #60c28e;
+    border-radius: 0;
+}
+button:hover {
+  border: 3px solid #60c28e !important;
+  background-color: #60c28e;
+  color: white;
+}
+
+
+/* -- HEADER -- */
+.top-menu-header {
+	background-color: #fff;
+}
+
+img.legacy-logo {
+	max-width: 200px;
+	margin-top: 2%;
+	margin-left: 6%;
+}
+
+/* -- HOME PAGE -- */
+.widget-small-banner img{
+	width: 100%;
+}
+
+a.homepage-offer {
+	color: #1f2833;
+}
+
+a.homepage-offer:hover {
+	color: #daa520;
+	text-decoration: none;
+}
+
+/*Spilled Wine Glass Img*/
+img.image.wp-image-41.attachment-full.size-full {
+	margin-left: 20%;
+	width: 80%;
+}
+
+img.tony-quote-home {
+	width: 100%;
+	margin-left: 50px;
+}
+
+/* -- SERVICES PAGE -- */
+.image-ultimate-hover-1 .iheu-info,
+.image-ultimate-hover-2 .iheu-info {
+	background: #6a202b !important;
+}
+
+/* -- CONTACT PAGE -- */
+label {
+	padding: 1%;
+}
+
+/* -- FOOTER -- */
+
+img.footer-img {
+	width: 100%;
+	margin-top: 10%;
+}
