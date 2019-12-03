@@ -149,6 +149,7 @@ footer p {
 footer ul {
     font-family: 'OpenSans-Regular' !important;
     list-style-type: none;
+		padding-left: 0;
 }
 
 footer li a {
@@ -159,6 +160,7 @@ footer li a {
 
 footer li a:hover {
   color: #a26f45;
+	text-decoration: none;
 }
 
 .widget-footer.widget-right a {
