@@ -69,22 +69,22 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: Right About-Brief Widget
-    register_sidebar(array(
-      'name'          => ('Right-About-Brief Home'),
-      'id'            => 'right-about-brief-home',
-      'description'   => 'Right About-Brief widget area in home page',
-      'before_widget' => '<div class="widget-home widget-left">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
     //Home: Left Img Widget
     register_sidebar(array(
       'name'          => ('Left Img Home'),
       'id'            => 'left-img-home',
       'description'   => 'Left img widget area in Home Page',
       'before_widget' => '<div class="widget-home widget-right">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+    //Home: Right About-Brief Widget
+    register_sidebar(array(
+      'name'          => ('Right-About-Brief Home'),
+      'id'            => 'right-about-brief-home',
+      'description'   => 'Right About-Brief widget area in home page',
+      'before_widget' => '<div class="widget-home widget-left">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
@@ -109,16 +109,6 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: Right About-Brief Widget Two
-    register_sidebar(array(
-      'name'          => ('Right-About-Brief Home Two'),
-      'id'            => 'right-about-brief-home-two',
-      'description'   => 'Right About-Brief widget area two in home page',
-      'before_widget' => '<div class="widget-home widget-left">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
     //Home: Left Img Widget Two
     register_sidebar(array(
       'name'          => ('Left Img Home Two'),
@@ -129,18 +119,16 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-
-    //Home: Brands Slider Widget
+    //Home: Right About-Brief Widget Two
     register_sidebar(array(
-      'name'          => ('Brands Slider Home'),
-      'id'            => 'brands-home',
-      'description'   => 'Brands Slider widget area in home page',
-      'before_widget' => '<div class="widget-home widget-brands">',
+      'name'          => ('Right-About-Brief Home Two'),
+      'id'            => 'right-about-brief-home-two',
+      'description'   => 'Right About-Brief widget area two in home page',
+      'before_widget' => '<div class="widget-home widget-left">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-
     //Home: Contact-Brief Widget
     register_sidebar(array(
       'name'          => ('Contact-Brief Home'),
