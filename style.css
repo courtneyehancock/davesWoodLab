@@ -93,7 +93,7 @@ header .sticky-element-placeholder.sticky-element-active {
 
 .top-menu-header {
 	background-color: #fff;
-	border-bottom:
+	padding: .5% 0;
 }
 
 img.daves-logo {
