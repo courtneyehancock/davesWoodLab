@@ -37,6 +37,18 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
+
+    //Home: Service-Brief Widget
+    register_sidebar(array(
+      'name'          => ('Service-Brief Home'),
+      'id'            => 'service-brief-home',
+      'description'   => 'Service-Brief widget area in home page',
+      'before_widget' => '<div class="widget-home widget-service-brief">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="widget-title">',
+      'after_title'   => '</h3>'
+    ));
+
     //Home: About-Brief Widget
     register_sidebar(array(
       'name'          => ('About-Brief Home'),
@@ -67,26 +79,7 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: Service-Brief Widget
-    register_sidebar(array(
-      'name'          => ('Service-Brief Home'),
-      'id'            => 'service-brief-home',
-      'description'   => 'Service-Brief widget area in home page',
-      'before_widget' => '<div class="widget-home widget-service-brief">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-    //Home: Tony Quote Home
-    register_sidebar(array(
-      'name'          => ('Quote Home'),
-      'id'            => 'quote-home',
-      'description'   => 'Quote area in home page',
-      'before_widget' => '<div class="tony-quote-home">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
+
 
     //Home: Brands Slider Widget
     register_sidebar(array(
@@ -98,34 +91,13 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: Left Img Widget
-    register_sidebar(array(
-      'name'          => ('Left Img Home'),
-      'id'            => 'left-img-home',
-      'description'   => 'Left img widget area in Home Page',
-      'before_widget' => '<div class="widget-home widget-left">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
 
-    //Home: About-Brief Widget
+    //Home: Contact-Brief Widget
     register_sidebar(array(
       'name'          => ('Contact-Brief Home'),
       'id'            => 'contact-brief-home',
       'description'   => 'Contact-Brief widget area in home page',
       'before_widget' => '<div class="widget-home widget-right">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-
-    //Home: Img Slider Widget
-    register_sidebar(array(
-      'name'          => ('Img Slider Home'),
-      'id'            => 'img-slider-home',
-      'description'   => 'Img slider widget area in Home Page',
-      'before_widget' => '<div class="widget-home">',
       'after_widget'  => '</div>',
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
@@ -262,16 +234,6 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Contact: Business Card Widget
-    register_sidebar(array(
-      'name'          => ('Business Card Contact'),
-      'id'            => 'business-card-contact',
-      'description'   => 'Business card widget area in contact Page',
-      'before_widget' => '<div class="business-card-widget">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
 
     //Contact: Form
     register_sidebar(array(
@@ -336,7 +298,7 @@
       'after_title'   => '</h3>'
     ));
   }
-  
+
   add_action('widgets_init', 'blank_widgets_init');
 
   //Custom Menus

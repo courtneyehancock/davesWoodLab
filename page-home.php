@@ -37,22 +37,4 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="col-md-12 pb-5">
-    <!--Img Slider Widget-->
-    <?php dynamic_sidebar('img-slider-home'); ?>
-  </div>
-</div>
-
-<div class="container pt-5">
-  <div class="row">
-    <div class="col-md-6">
-      <p><?php dynamic_sidebar('left-img-home'); ?></p>
-    </div>
-    <div class="col-md-6 tony-quote-text">
-      <p><?php dynamic_sidebar('quote-home'); ?></p>
-    </div>
-  </div>
-</div>
-
 <?php get_footer(); ?>
