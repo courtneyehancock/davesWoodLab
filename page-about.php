@@ -22,6 +22,20 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="col-md-12">
+      <!--Text-->
+      <?php
+        if(have_posts()){
+          while(have_posts()){
+            the_post();?>
+            <?php the_content();
+          }
+        }
+      ?>
+    </div>
+  </div>
+
   <div class="row align-items-center">
     <div>
       <!-- About Brief Text Widget-->
