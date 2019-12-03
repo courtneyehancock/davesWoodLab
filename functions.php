@@ -69,17 +69,6 @@
       'before_title'  => '<h3 class="widget-title">',
       'after_title'   => '</h3>'
     ));
-    //Home: Small Banner Widget
-    register_sidebar(array(
-      'name'          => ('Small Banner Home'),
-      'id'            => 'small-banner-home',
-      'description'   => 'Small banner widget area in home page',
-      'before_widget' => '<div class="widget-home widget-small-banner">',
-      'after_widget'  => '</div>',
-      'before_title'  => '<h3 class="widget-title">',
-      'after_title'   => '</h3>'
-    ));
-
 
     //Home: Brands Slider Widget
     register_sidebar(array(

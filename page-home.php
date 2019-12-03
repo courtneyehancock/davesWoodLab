@@ -17,14 +17,7 @@
   </div>
 </div>
 
-  <div class="row">
-    <div class="col-md-12">
-      <!--Small Banner Img Widget-->
-      <?php dynamic_sidebar('small-banner-home'); ?>
-    </div>
-  </div>
-
-<div class="mt-5 mb-5">
+<div class="container mt-5 mb-5">
   <div class="row align-items-center">
     <div class="col-md-6 text-center pl-5">
       <!-- About Brief Text Widget-->
