@@ -85,7 +85,7 @@ button:hover {
 
 
 /* -- HEADER -- */
-header {
+.container-fluid.top-menu-header.sticky-element-original.element-is-sticky {
 	-webkit-box-shadow: 0 10px 5px #888888;
 	-moz-box-shadow: 0 10px 5px #888888;
 	box-shadow: 0 1px 8px #888888;
@@ -93,6 +93,7 @@ header {
 
 .top-menu-header {
 	background-color: #fff;
+	padding-bottom: 1%;
 }
 
 img.daves-logo {
