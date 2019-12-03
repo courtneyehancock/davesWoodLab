@@ -50,6 +50,7 @@ h2, h3 {
   font-family: 'Adam' !important;
   letter-spacing: 1.5px;
   color: #c8a37b;
+	text-transform: uppercase;
 }
 h4, h5, h6 {
   font-family: 'OpenSans-Regular' !important;
