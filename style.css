@@ -125,6 +125,11 @@ a.homepage-offer:hover {
 	transition: .2s;
 }
 
+.home-banner-text {
+	background-color: #212121;
+	padding: 5%;
+}
+
 .image-ultimate-row {
 	margin-top: 5%;
 }
