@@ -61,6 +61,11 @@ p {
   font-family: 'OpenSans-Regular', sans-serif !important;
 	color: #212121;
 }
+
+a {
+	color: #c8a37b;
+}
+
 .title-box {
   width: 25px;
   height: 50px;
