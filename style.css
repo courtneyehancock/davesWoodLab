@@ -195,4 +195,8 @@ footer img {
     flex-direction: column;
     align-items: center;
 	}
+
+	#site-logo {
+		display: none;
+	}
 }
