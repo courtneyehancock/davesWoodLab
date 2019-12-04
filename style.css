@@ -130,10 +130,6 @@ a.homepage-offer:hover {
 	padding: 5%;
 }
 
-.image-ultimate-row {
-	margin-top: 5%;
-}
-
 /* -- SERVICES PAGE -- */
 .image-ultimate-hover-1 .iheu-info,
 .image-ultimate-hover-2 .iheu-info {
@@ -195,13 +191,16 @@ footer img {
 		text-align: center;
 	}
 
-	.image-ultimate-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-	}
-
 	#site-logo {
 		display: none;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.image-ultimate-row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 5%;
 	}
 }
