@@ -203,4 +203,8 @@ footer img {
 		align-items: center;
 		margin-top: 5%;
 	}
+
+	.steps-text {
+		display: none;
+	}
 }
