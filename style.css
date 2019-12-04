@@ -66,6 +66,9 @@ a {
 	color: #c8a37b;
 }
 
+a:hover {
+	text-decoration: none;
+}
 .title-box {
   width: 25px;
   height: 50px;
