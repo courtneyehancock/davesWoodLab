@@ -124,6 +124,11 @@ a.homepage-offer:hover {
 	opacity: .7;
 	transition: .2s;
 }
+
+.image-ultimate-row {
+	margin-top: 5%;
+}
+
 /* -- SERVICES PAGE -- */
 .image-ultimate-hover-1 .iheu-info,
 .image-ultimate-hover-2 .iheu-info {
@@ -189,6 +194,5 @@ footer img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5%;
 	}
 }
