@@ -178,3 +178,10 @@ footer li a:hover {
 footer img {
 	max-width: 300px !important;
 }
+
+/* -- MEDIA QUERIES -- */
+@media (max-width:767px) {
+	footer {
+		text-align: center;
+	}
+}
