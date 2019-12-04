@@ -184,4 +184,11 @@ footer img {
 	footer {
 		text-align: center;
 	}
+
+	.image-ultimate-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+	}
 }
