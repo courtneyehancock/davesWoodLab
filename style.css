@@ -138,11 +138,14 @@ a.homepage-offer:hover {
 	background-color: #212121;
 	padding: 5%;
 }
-
-/* -- SERVICES PAGE -- */
 .image-ultimate-hover-1 .iheu-info,
 .image-ultimate-hover-2 .iheu-info {
 	background: #322015 !important;
+}
+/* -- PROJECTS PAGE -- */
+.crp-catalog-title{
+	font-family: "OpenSans", serif !important;
+	font-size: .8em;
 }
 
 /* -- CONTACT PAGE -- */
