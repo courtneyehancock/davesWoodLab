@@ -63,10 +63,11 @@ p {
 }
 
 a {
-	color: #c8a37b;
+	color: #212121;
 }
 
 a:hover {
+	color: #c8a37b;
 	text-decoration: none;
 }
 .title-box {
