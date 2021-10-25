@@ -6,23 +6,14 @@
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
 
-      <div class="col-md-4">
-        <!--Middle Left Space-->
-        <?php dynamic_sidebar('middle-left-footer'); ?>
-      </div>
-
-      <div class="col-md-4">
+      <div class="col-md-8">
         <!--Contact Widget-->
         <?php dynamic_sidebar('right-footer'); ?>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-md-12">
         <!--Copyright-->
-        <p> © <?php echo date("Y"); ?> Dave's Wood Lab </p>
-      </div>
-    </div>
+        <p class="text-center"> © <?php echo date("Y"); ?> Dave's Wood Lab </p>
   </div>
 </footer>
 

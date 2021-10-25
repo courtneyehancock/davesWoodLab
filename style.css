@@ -142,10 +142,11 @@ a.homepage-offer:hover {
 .image-ultimate-hover-2 .iheu-info {
 	background: #322015 !important;
 }
-/* -- PROJECTS PAGE -- */
-.crp-catalog-title{
-	font-family: 'OpenSans-Regular', sans-serif !important;
-	font-size: .8em;
+/* -- PROJECTS/POSTS PAGE -- */
+
+.post-feature img {
+    width: 100%;
+    height: auto;
 }
 
 /* -- CONTACT PAGE -- */
