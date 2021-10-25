@@ -1,9 +1,7 @@
-<?php /*Template Name: About Page Template*/ ?>
+<?php /*Template Name: Internal Page Template*/ ?>
 <?php get_header(); ?>
 
-<div class="container-fluid about-page">
-  <div class="row">
-    <div class="col-md-12">
+<div>
       <!--Text-->
       <?php
         if(have_posts()){
@@ -13,8 +11,6 @@
           }
         }
       ?>
-    </div>
-  </div>
 </div>
 
 <?php get_footer(); ?>
