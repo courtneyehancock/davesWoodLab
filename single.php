@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="internal-hero-image" style="background-color:#001b3d; background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(245, 246, 252, 0.52)), url('https://daveswoodlab.com/wp-content/uploads/2021/10/246240473_244213517759610_7167870577028381681_n.jpg');">
 <div class="container internal-div">
-<h1 class="hero-text">Project Catalogue</h1>
+<h1 class="hero-text">Project Catalogue - Item</h1>
 </div>
 </div>
 <div class="container pt-5">
