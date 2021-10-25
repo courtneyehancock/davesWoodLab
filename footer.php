@@ -1,6 +1,6 @@
 <footer>
   <div class="container">
-    <div class="row">
+    <div class="row d-flex align-items-center">
       <div class="col-md-6">
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
