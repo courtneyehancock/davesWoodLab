@@ -1,12 +1,12 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
       </div>
 
-      <div class="col-md-8">
+      <div class="col-md-6">
         <!--Contact Widget-->
         <?php dynamic_sidebar('right-footer'); ?>
       </div>
