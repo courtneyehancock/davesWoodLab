@@ -12,7 +12,7 @@
       </div>
     </div>
   </div>
-  <div class="bottom-footer">
+  <div class="bottom-footer mt-3 p-1">
         <!--Copyright-->
         <p class="text-center"> © <?php echo date("Y"); ?> Dave's Wood Lab </p>
 </div>

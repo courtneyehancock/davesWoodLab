@@ -159,12 +159,13 @@ label {
 footer {
 	background-color: #212121;
 	padding: 3% 0 3% 0;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.bottom-footer {
+	background-color:#322015;
 }
 
 footer p {
