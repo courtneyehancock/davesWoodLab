@@ -161,6 +161,12 @@ footer {
 	padding: 3% 0 3% 0;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 footer p {
 	color: #fff;
 }
@@ -176,23 +182,17 @@ footer ul {
 		padding-left: 0;
 }
 
-footer li a {
+footer a {
   text-decoration: none;
-  color: #c8a37b;
+  color: #e4cfae;
   transition: 0.2s;
 }
 
-footer li a:hover {
-  color: #a26f45;
+footer a:hover {
+  color: #fff;
 	text-decoration: none;
 }
 
-.widget-footer.widget-right a {
-  color: #fff;
-}
-.widget-footer.widget-right a:hover {
-  color: #fff;
-}
 
 footer img {
 	max-width: 300px !important;
