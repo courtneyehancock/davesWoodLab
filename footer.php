@@ -1,5 +1,5 @@
 <footer>
-  <div class="container d-flex justify-content-center">
+  <div class="container d-flex flex-column justify-content-center">
         <!--Logo/text widget-->
         <?php dynamic_sidebar('left-footer'); ?>
 
