@@ -11,10 +11,11 @@
         <?php dynamic_sidebar('right-footer'); ?>
       </div>
     </div>
-
+  </div>
+  <div class="bottom-footer">
         <!--Copyright-->
         <p class="text-center"> © <?php echo date("Y"); ?> Dave's Wood Lab </p>
-  </div>
+</div>
 </footer>
 
 <?php wp_footer(); ?>
