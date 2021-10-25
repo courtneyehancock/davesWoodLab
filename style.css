@@ -184,15 +184,14 @@ footer ul {
 
 footer a {
   text-decoration: none;
-  color: #e4cfae;
+  color: #e4cfae !important;
   transition: 0.2s;
 }
 
 footer a:hover {
-  color: #fff;
+  color: #fff !important;
 	text-decoration: none;
 }
-
 
 footer img {
 	max-width: 300px !important;
